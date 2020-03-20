@@ -14,7 +14,7 @@
     </div>
     <button @click="updateValue">Save</button>
     
-    <hr>
+    <!-- <hr> -->
 
 </div>
 
@@ -50,14 +50,14 @@ export default {
 <style scoped>
 .valueExercise{
     background-color:pink;
-    padding:0.5em;
+    padding:1em;
 }
 .ownValue{
     margin-top:1.5em;
 }
 h2{
 
-    padding:1em;
+    padding:0.5em;
 }
 p{
     padding:0.5em;
@@ -70,12 +70,12 @@ button{
     background-color:white;
     box-shadow: 2px 3px 6px rgb(107, 107, 107);
 }
-hr{
+/* hr{
     background-color:rgb(175, 131, 138);
     padding-left:1em;
     padding-right:1em;
     margin:1em;
-}
+} */
 .line{
     border-top:3px solid rgb(131, 161, 168);
     margin:0 3em 0;

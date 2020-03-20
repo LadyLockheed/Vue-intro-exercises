@@ -42,6 +42,7 @@ chooseColorMode:"Do you choose the light or the dark path?"
 .lightmode{
     /* background-color:rgb(150, 192, 226); */
      background-color:rgb(150, 192, 226);
+     padding:0.5em;
 }
 .lightmode >p{
     padding:0.5em;
@@ -50,6 +51,7 @@ chooseColorMode:"Do you choose the light or the dark path?"
 
 .darkmode{
     background-color:rgb(95, 123, 146);
+    padding:0.5em;
   
 }
 .darkmode>button{
