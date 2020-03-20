@@ -1,17 +1,18 @@
 <template>
 
-    <div class="colormode">
+    <!-- <div class="colormode"> -->
+    <div v-bind:class="myNewClass">
 
         <h2>{{headline}}</h2>
         <div class="line"></div>
-
-        <div v-bind:class="myNewClass">
-            <p>{{chooseColorMode}}</p>
+        
+       
+        <p>{{chooseColorMode}}</p>
         <button @click="myNewClass='lightmode'">Lightmode</button>
         <button @click="myNewClass='darkmode'">Darkmode</button>
         <p>You have chosen: {{myNewClass}}</p>
 
-        </div>
+       
 
         
     </div>
@@ -31,10 +32,7 @@ chooseColorMode:"Do you choose the light or the dark path?"
 }
 </script>
 <style scoped>
-.colormode{
-    background-color:rgb(150, 192, 226);
-    padding:1em;
-}
+
 .line{
     border-top:3px solid rgb(131, 161, 168);
     margin:0 3em 0;
@@ -43,24 +41,28 @@ chooseColorMode:"Do you choose the light or the dark path?"
 }
 .lightmode{
     /* background-color:rgb(150, 192, 226); */
-     background-color:rgb(230, 220, 86);
+     background-color:rgb(150, 192, 226);
 }
 .lightmode >p{
     padding:0.5em;
+    
 }
 
 .darkmode{
-    background-color:rgb(66, 84, 99);
+    background-color:rgb(95, 123, 146);
   
 }
 .darkmode>button{
-    background-color:rgb(151, 132, 142);
+    background-color:rgb(54, 62, 138);
     color:white;
 }
-.darkmode>p{
+.darkmode >p{
     color:white;
      padding:0.5em;
  
+}
+.darkmode> h2{
+    color:white;
 }
 
 h2{

@@ -8,6 +8,7 @@
 
     <value/>
     <colorMode/>
+    <showOrHide/>
 
   </div>
 </template>
@@ -17,6 +18,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import value from './components/value.vue'
 import colorMode from './components/colorMode.vue'
+import showOrHide from './components/showOrHide.vue'
 
 
 //Tar emot Hello World komponenten
@@ -26,6 +28,7 @@ export default {
     HelloWorld,
     value,
     colorMode,
+    showOrHide
   }
 }
 </script>
